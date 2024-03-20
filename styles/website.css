@@ -10,8 +10,12 @@ li {
 }
 .normally {
     border-top: 10px rgba(214, 22, 38, 0.87) solid;
+    background-color: darkslategrey;
 }
 .strange {
     font-size: medium;
     color: orchid;
+}
+body {
+    background-color: cornflowerblue;
 }
