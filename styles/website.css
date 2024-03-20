@@ -8,3 +8,10 @@ li {
     font-size: xx-large;
     color: aqua;
 }
+.normally {
+    border-top: 10px rgba(214, 22, 38, 0.87) solid;
+}
+.strange {
+    font-size: medium;
+    color: orchid;
+}
