@@ -1,21 +1,26 @@
 p {
     color: rgba(209, 21, 21, 0.822);
 }
+
 li {
     color: rgb(47, 78, 255);
 }
-#tomfoolery{
+
+#tomfoolery {
     font-size: xx-large;
     color: aqua;
 }
+
 .normally {
     border-top: 10px rgba(214, 22, 38, 0.87) solid;
     background-color: darkslategrey;
 }
+
 .strange {
     font-size: medium;
     color: orchid;
 }
+
 body {
     background-color: cornflowerblue;
 }
