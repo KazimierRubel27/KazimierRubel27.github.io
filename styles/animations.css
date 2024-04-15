@@ -70,6 +70,10 @@ transform: scale(0.75);
     width: 100px;
     height: 100px;
     object-fit: cover;
+    opacity:0.5
+}
+* {
+    transition:0.5s;
 }
 .fading-gallery img:hover{
     opacity:1;
