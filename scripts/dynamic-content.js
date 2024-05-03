@@ -1,9 +1,10 @@
 let colors = ["red","orange","yellow","green","blue","indigo","violet"];
 let ul = document.createElement("ul");
-colors.forEach(color => {
+for (let i = 0; i < colors.length; i++) {
     let li = document.createElement("li");
-    li.innerText = color;
-    li.style.color = color;
+    li.append(colors[i]);
+    li.style.color = colors[i]
     ul.appendChild(li);
-});
+}
+
 document.body.appendChild(ul);
