@@ -1,1 +1,0 @@
-take the text and add it to a list then display the list
