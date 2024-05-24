@@ -8,3 +8,12 @@ body {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
+a {
+    background-color: yellow;
+  }
+  
+a:hover {
+    transition: ease-in, 3s;
+    background-color: black;
+    scale: 2;
+  }
