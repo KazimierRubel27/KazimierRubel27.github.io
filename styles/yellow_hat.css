@@ -15,5 +15,17 @@ a {
 a:hover {
     transition: ease-in, 3s;
     background-color: black;
-    scale: 2;
-  }
+    color: whitesmoke;
+}
+#yellow{
+    color: black;
+}
+#yellow:hover{
+    transition: none;
+    background-color:burlywood;
+    color: yellow;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
