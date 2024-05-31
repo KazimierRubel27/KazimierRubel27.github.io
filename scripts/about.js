@@ -5,13 +5,14 @@ let inputBox = document.getElementById("inputBox");
 
 document.getElementById("addButton").addEventListener("click", function () {
     let li = document.createElement('li');
-    li.innerText = inputBox.value;
-    if (inputBox.value.toLowerCase()) === "yellow hat"{
+    if (inputBox.value.toLowerCase() === "yellow hat"){
         let anchorLink = document.createElement("a");
         anchorLink.href = "yellow_hat.html";
+        anchorLink.innerText = inputBox.value;
         li.appendChild(anchorLink);
         list.appendChild(li);
     } else {
+        li.innerText = inputBox.value;
         list.appendChild(li);
     }
-});
+}); 
