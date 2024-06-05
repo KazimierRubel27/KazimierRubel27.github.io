@@ -11,5 +11,10 @@ body {
 div{
 display: flex;
 }
+a:hover {
+    transition: ease, 2s;
+    background-color: whitesmoke;
+    color: black;
+}
 
   

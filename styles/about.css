@@ -3,4 +3,9 @@ p{
 }
 body {
     background-color: yellow;
+} 
+a:hover {
+    transition: ease, 2s;
+    background-color: whitesmoke;
+    color: black;
 }
