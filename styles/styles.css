@@ -19,3 +19,6 @@ a:hover {
 li:first-child{
     font-style: italic;
 }
+iframe{
+    border:0;
+}
