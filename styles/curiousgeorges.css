@@ -1,13 +1,11 @@
 body{
     background-color: yellow;
 }
-
-#georgeface:hover{
+#georgeface{
     height:  15ms;
     animation: spin 3s infinite linear;
-    transition: ease-in 0.5;
+    transition: ease-in 0.5s;
 }
-
 @keyframes spin{
     from {
         transform: rotate(0);
@@ -15,4 +13,7 @@ body{
     to {
         transform: rotate(360deg);
     }
+
+}#georgeface:hover{
+    animation-play-state: paused;
 }
