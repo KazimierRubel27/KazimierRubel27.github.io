@@ -16,5 +16,6 @@ a:hover {
     background-color: whitesmoke;
     color: black;
 }
-
-  
+li:first-child{
+    font-style: italic;
+}
